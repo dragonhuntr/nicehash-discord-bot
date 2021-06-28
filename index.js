@@ -33,9 +33,6 @@ client.on("message", async message => {
     if (message.content.startsWith("-rig")) {
         rigStats(args[1], message)
     }
-    if (message.content.startsWith("-downalert")) {
-        rigStats(args[1], message)
-    }
 })
 
 async function getRigs(message) {
