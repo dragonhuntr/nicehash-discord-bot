@@ -1,0 +1,22 @@
+{
+  "name": "nicehash-discord-bot",
+  "version": "1.0.0",
+  "description": "nicehash discord bot",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "discord.js": "^12.5.3",
+    "axios": "^0.21.1",
+    "moment-timezone": "^0.5.33",
+    "qs": "^6.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Limit#1844",
+  "license": "ISC"
+}
