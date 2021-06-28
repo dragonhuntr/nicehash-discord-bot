@@ -3,7 +3,6 @@ const Discord = require('discord.js');
 const { default: axios } = require('axios');
 const client = new Discord.Client();
 const moment = require('moment-timezone');
-const { get } = require('request');
 
 const botToken = ''
 
@@ -233,8 +232,6 @@ async function rigStats(rigName, message) {
             stats = rig
         }
     }
-
-    console.log(stats)
 
     var embed = {
         "title": `Rig Stats`,
